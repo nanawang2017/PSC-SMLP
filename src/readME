@@ -1,0 +1,8 @@
+1、data_analysis:
+对An-Exp中的check_ins.txt和social_relations两个文件生成user_poi和user_friend
+若user_poi和user_friend存在 可进行数据分析
+2、运行cssc 利用user_poi和user_friend 利用谱聚类 生成similarity_matrix，并进行聚类得到user_cluster
+3、运行dataset.py，利用user_cluster和user_poi=> 生成训练集、测试集、R_train等
+Gowalla 使用的数据集都在0einter
+Yelp使用的数据集都在2einter
+2、运行U_dump 生成 U.pkl 谱特征向量矩阵
